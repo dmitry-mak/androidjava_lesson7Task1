@@ -69,7 +69,7 @@ public class Main {
         System.out.println("Список возможных товаров для покупки:");
         int index = 1;
         for (String product : products) {
-            System.out.println(index + ". " + product + " - " + price[index - 1] + " руб/шт");
+            System.out.printf("%d. %s - %d руб/шт\n", index, product, price[index - 1]);
             index++;
         }
     }
